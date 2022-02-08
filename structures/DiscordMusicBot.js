@@ -187,7 +187,7 @@ class DiscordMusicBot extends Client {
           .setColor(this.botconfig.EmbedColor)
           .setTimestamp();
         client.channels.cache.get(player.textChannel).send(QueueEmbed);
-        if (!this.botconfig["24/7"]) player.destroy();
+        if (!this.botconfig["24/7"]) setTimeout(function(){player.destroy();}, 300000);
       });
   }
 
