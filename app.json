@@ -46,23 +46,6 @@
     "Spotify_ClientSecret": {
       "description": "Spotify ClientSecret. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
       "required": "true"
-    },
-	"Lavalink_Host": {
-		"description": "The Lavalink host ip or address",
-      "required": "true"
-	},
-	"Lavalink_Port": {
-		"description": "The Lavalink port",
-      "required": "true"
-	},
-	"Lavalink_Pass": {
-		"description": "The Lavalink password",
-      "required": "true"
-	},
-	"Lavalink_Secure": {
-		"description": "If the server uses SSL / is secure set to true",
-      "required": "true",
-	  "value": "true"
-	}
+    }
   }
 }
